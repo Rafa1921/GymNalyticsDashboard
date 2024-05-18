@@ -1,0 +1,60 @@
+.login-container,
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box,
+.register-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.login-header,
+.register-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.login-form,
+.register-form {
+  width: 100%;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login-form button,
+.register-form button {
+  width: calc(100% - 20px);
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-form button:hover,
+.register-form button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
